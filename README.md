@@ -47,8 +47,8 @@ This project implements a **real-time face recognition and liveness detection sy
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/joe-dev-dot/Real-Time-Face-Recognition-Liveness-Detection-on-Raspberry-Pi
+cd project
 ```
 
 2. (Optional) Create a virtual environment:
@@ -83,7 +83,7 @@ dataset/
 2. Generate the `.pkl` embeddings:
 
 ```bash
-python generate_known_embeddings.py
+python generate_known_faces_encodings.py
 ```
 
 This will create `known_faces_encodings.pkl`.
@@ -144,8 +144,8 @@ Liveness: spoof (0.92)
 
 ## 🛈 Contact
 
-- Maintainer: [Your Name]
-- Email: [your.email@example.com](mailto\:your.email@example.com)
+- Maintainer: [Youssef Toumi]
+- Email: [youssef.toumi@polytechnicien.tn]
 
 Feel free to open issues or contribute with improvements!
 
